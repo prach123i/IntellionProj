@@ -55,9 +55,9 @@ const Partners = () => (
               className="bg-white p-5 rounded-xl shadow-lg flex items-center justify-center h-28"
             >
               <img
-                src={`/assets/partner${index}.png`}
+                src={`/partner${index}.png`}
                 alt={`Partner ${index}`}
-                className="h-16 object-contain"
+                className="h-14 object-contain"
               />
             </motion.div>
           </SwiperSlide>
